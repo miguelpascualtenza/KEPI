@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+
 
 header main{
   margin: 20%;
@@ -10,21 +13,30 @@ header main{
   justify-content: space-between;
   margin-top: 2%;
   margin-right: 2%;
+  
 }
 
 
 
 #logo{
   text-align: center;
+  font-family: 'Rubik Bubbles', cursive;
+  font-size: 30px;
+
 }
 
 
 
 .banner{  
+  border: solid 2px red;
   margin: auto;
-
   text-align: center;
 
+
+}
+.banner a{
+
+  border: solid 2px green;
 }
 
 #articulos{
@@ -34,6 +46,11 @@ header main{
   justify-content: space-between;
   margin-top: 2%;
   margin-right: 2%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
 }
 
 
@@ -46,7 +63,7 @@ header main{
 }
 
 .ropa img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -60,6 +77,28 @@ header main{
   text-transform: uppercase;
   display: inline-block;
 }
+
+
+.ropa div {
+
+/*   border: solid 2px red;
+ */  position: relative;
+}
+
+
+.Foto2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.ropa div:hover .Foto2 {
+
+  opacity: 1;
+}
+
 
 
 @media (max-width: 750px) {
