@@ -1,49 +1,69 @@
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+
+header main{
+  margin: 20%;
+}
+
+.menu {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+
+
+#logo{
+  text-align: center;
+}
+
+
+
+.banner{  
+  margin: auto;
+
+  text-align: center;
+
+}
+
+#articulos{
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+
+/* fila ropa */
+.ropa {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin: auto 0;
+}
+
+.ropa img {
+  width: 100%;
+  height: auto;
+}
+
+.ropa h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.ropa a {
+  padding: 10px 0;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+
+@media (max-width: 750px) {
+  .ropa {
+    grid-template-columns: repeat(2, 1fr);
   }
-  
-  header {
-    background-color: lightgray;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  h1 {
-    margin: 0;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    margin: 0 10px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  section {
-    margin-bottom: 20px;
-  }
-  
-  footer {
-    background-color: lightgray;
-    text-align: center;
-    padding: 20px;
-  }
+}

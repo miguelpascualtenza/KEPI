@@ -1,52 +1,132 @@
-@@ -0,0 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="main.css">
-  <link href='https://fonts.googleapis.com/css?family=Rubik Bubbles' rel='stylesheet'>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <link rel="stylesheet" href="./css/style.css">
-  <title>KEPI Home</title>
+
+  <title>KEPI</title>
 </head>
 <body>
-    <header>
-      <h1>KEPI</h1>
-      <nav>
-        <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#productos">Productos</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="inicio">
-        <h2>Bienvenidos a nuestra tienda de ropa</h2>
-        <p>En nuestra tienda encontrarás ropa de última tendencia a precios asequibles.</p>
-      </section>
-      <section id="productos">
-        <h2>Nuestros productos</h2>
-        <ul>
-          <li>Camisetas</li>
-          <li>Jeans</li>
-          <li>Sudaderas</li>
-          <li>Vestidos</li>
-        </ul>
-      </section>
-      <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Si tienes alguna pregunta o quieres hacer un pedido, ponte en contacto con nosotros a través de los siguientes canales:</p>
-        <ul>
-          <li>Teléfono: 555-555-5555</li>
-          <li>Email: info@tiendaropa.com</li>
-          <li>Dirección: Calle Ficticia 123, Ciudad Ficticia</li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <p>Copyright 2021, Tienda de Ropa</p>
-    </footer>
-  </body>
-  </html>
+  <header>
+    <div>
+      <div class="menu">
+
+        <div >
+          <nav>
+            <a href="#">Mujer</a>
+            <a href="#">Hombre</a>
+            <a href="#">Niños</a>
+            <a href="#">Belleza</a>
+          </nav>
+        </div>
+
+        <div id="logo">
+
+
+            <a href="#">
+              KEPI
+            </a>
+
+        </div>
+
+        <div class="iconos">
+
+            <i class="fa fa-globe"></i>
+            <i class="fa fa-user"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-shopping-cart"></i>
+
+        </div>
+      
+      </div>
+      <div class="menu">
+
+        <div >
+          <nav>
+            <a href="#">Regalos</a>
+            <a href="#">Novedades</a>
+            <a href="#">Marcas</a>
+            <a href="#">Ropa</a>
+            <a href="#">Zapatos</a>
+            <a href="#">Zapatillas</a>
+            <a href="#">Bolsos</a>
+            <a href="#">Accesorios</a>
+            <a href="#">Relojes</a>
+            <a href="#">Rebajas</a>
+          </nav>
+        </div>
+
+
+
+        <div >
+          <form action="/search">
+            <input type="text" placeholder="Buscar">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+
+
+        </div>
+      
+      </div>
+
+    </div>
+   
+  </header>
+
+  <main>
+    <div class="banner">
+      <img src="../img/banner.png" alt="Banner">
+
+    </div>
+    <div id="articulos">
+      <div>
+        <i>Novedades de marcas de lujo</i>
+      </div>
+      <div>
+        <button>Ver más</button>
+      </div>
+    </div>
+    
+    <!--  fila ropa -->
+    <div class="ropa">
+      <div>
+        <a href="#">
+          <img src="./img/art1.png" alt="articulo1">
+          <h3><b>Moncler</b></h3>
+          <p>chaleco Tibb acolchado</p>
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <img src="./img/art2.png" alt="articulo1">
+          <h3><b>Y-3</b></h3>
+          <p>sudadera con capucha</p>
+        </a>
+      </div>
+      <div>
+        <a href="#">
+
+          <img src="./img/art3.png" alt="articulo1">
+          <h3><b>Burberry</b></h3>
+          <p>camiseta con logo estampado</p>
+        </a>
+      </div>
+      <div>
+        <a href="#">
+
+          <img src="./img/art4.png" alt="articulo1">
+          <h3><b>Stone Island</b></h3>
+          <p>sudadera con parches Compass</p>
+        </a>
+      </div>
+    </div>
+  </main>
+
+
+</body>
+</html>
