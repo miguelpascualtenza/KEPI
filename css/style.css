@@ -2,17 +2,31 @@
 
 
 
-header main{
-  margin: 20%;
+header, main{
+  margin: 5%;
 }
 
 .menu {
   width: 100%;
+  border: solid 2px blue;
 
   display: flex;
   justify-content: space-between;
   margin-top: 2%;
   margin-right: 2%;
+  
+}
+.submenu {
+  border: solid 2px blue;
+width: 25%;
+
+  
+}
+.iconos {
+  border: solid 2px blue;
+  width: 25%;
+  text-align: right;
+
   
 }
 
@@ -21,22 +35,23 @@ header main{
 #logo{
   text-align: center;
   font-family: 'Rubik Bubbles', cursive;
-  font-size: 30px;
-
+  font-size: 40px;
 }
 
 
 
 .banner{  
-  border: solid 2px red;
   margin: auto;
   text-align: center;
-
-
+  height: 100%;
+  width: auto;
+  
+  
 }
-.banner a{
 
-  border: solid 2px green;
+
+img{
+  width: 80%;
 }
 
 #articulos{
@@ -48,7 +63,15 @@ header main{
   margin-right: 2%;
 }
 
+nav a{
+  border: solid 2px red;
+  margin-right: 2%;
+  text-decoration: none;
+  color: black;
+}
+
 a{
+  border: solid 2px green;
   text-decoration: none;
   color: black;
 }
@@ -74,7 +97,6 @@ a{
 
 .ropa a {
   padding: 10px 0;
-  text-transform: uppercase;
   display: inline-block;
 }
 
@@ -95,14 +117,53 @@ a{
 }
 
 .ropa div:hover .Foto2 {
-
+  margin-top: 5%;
   opacity: 1;
 }
 
 
 
-@media (max-width: 750px) {
+
+
+
+
+ul {
+  display: flex; /* Muestra los elementos hijos (li) en formato horizontal */
+}
+
+li {
+  list-style: none; /* Quita los puntos de la lista */
+  margin: 0 5px; /* Añade espacio entre los elementos (li) */
+  flex-direction: row;
+
+}
+
+
+
+a:hover {
+  color: gray; /* Cambia el color del texto del enlace al pasar el cursor por encima */
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
   .ropa {
     grid-template-columns: repeat(2, 1fr);
+  }
+  nav {
+    flex-direction: column; /* Muestra los elementos hijos (li) en formato vertical */
+  }
+  li {
+    margin: 10px 0; /* Añade espacio entre los elementos (li) */
+  }
+}
+
+@media (max-width: 300px) {
+  .ropa {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
