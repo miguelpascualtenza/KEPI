@@ -8,8 +8,8 @@ header, main{
 
 .menu {
   width: 100%;
-  border: solid 2px blue;
-
+/*   border: solid 2px orange;
+ */
   display: flex;
   justify-content: space-between;
   margin-top: 2%;
@@ -17,19 +17,19 @@ header, main{
   
 }
 .submenu {
-  border: solid 2px blue;
-  width: 25%;
+/*   border: solid 2px green;
+ */  width: 25%;
   
 }
 .iconos {
-  border: solid 2px blue;
-  text-align: right;
+/*   border: solid 2px blue;
+ */  text-align: right;
   width: 33%;
 
 }
 .iconos i{
-  border: solid 2px cyan;
-  transform: scale(1.2);
+/*   border: solid 2px cyan;
+ */  transform: scale(1.2);
   text-align: right;
   
 }
@@ -47,8 +47,8 @@ header, main{
   background-size: 100% 100%;
   background-position: center;
   margin: auto;
-  border: solid 2px purple;
-  transform: scale(3.1);
+/*   border: solid 2px purple;
+ */  transform: scale(3.1);
 }
 
 
@@ -79,14 +79,13 @@ img{
 }
 
 nav a{
-  border: solid 2px red;
-  margin-right: 2%;
+/*   border: solid 2px red;
+ */  margin-right: 2%;
   text-decoration: none;
   color: black;
 }
 
 a{
-  border: solid 2px green;
   text-decoration: none;
   color: black;
 }
