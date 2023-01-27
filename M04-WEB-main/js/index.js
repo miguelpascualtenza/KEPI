@@ -47,8 +47,8 @@ async function changeLanguage(lang) {
   document.getElementById('novedades').innerHTML = data.novedades;
 
   console.log(document);
-  console.log(document.getElementById('Mujer'));
-  document.getElementById('Mujer').innerHTML = data.Mujer;
+  console.log(document.getElementById('mujer'));
+  document.getElementById('mujer').innerHTML = data.mujer;
 
 
 

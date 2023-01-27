@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
-
-
 
 header, main{
   margin: 5%;
@@ -8,8 +5,8 @@ header, main{
 
 .menu {
   width: 100%;
-  border: solid 2px blue;
-
+/*   border: solid 2px orange;
+ */
   display: flex;
   justify-content: space-between;
   margin-top: 2%;
@@ -17,19 +14,19 @@ header, main{
   
 }
 .submenu {
-  border: solid 2px blue;
-  width: 25%;
+/*   border: solid 2px green;
+ */  width: 25%;
   
 }
 .iconos {
-  border: solid 2px blue;
-  text-align: right;
+/*   border: solid 2px blue;
+ */  text-align: right;
   width: 33%;
 
 }
 .iconos i{
-  border: solid 2px cyan;
-  transform: scale(1.2);
+/*   border: solid 2px cyan;
+ */  transform: scale(1.2);
   text-align: right;
   
 }
@@ -37,32 +34,74 @@ header, main{
 
 
 #logo{
-  text-align: center;
-  font-family: 'Rubik Bubbles', cursive;
-/*   background-image: url(../logo/logo.svg);
- */  background-image: url(../logo/logo2.svg);
-  width: 40%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  width: 10%;
   height: 10%;
+
+  background-image: url(../logo/logo2.svg);
+
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  margin: auto;
-  border: solid 2px purple;
-  transform: scale(3.1);
-}
+/*   border: solid 2px purple;
+ *//*   transform: scale(1);
+ */}
 
 
 
 
 
 .banner{  
-  margin: auto;
+  margin-left: 10%;
+  margin-right: 10%;
   text-align: center;
-  height: 100%;
+  height: 500px;
   width: auto;
-  
+  display: flex;
+
   
 }
+
+.banner img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .7s ease;
+
+}
+
+.banner img:hover{
+  width: 20%;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+/* section{
+  display: flex;
+  width: 600px;
+  height: 430px;
+} 
+
+section img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+
+section img:hover{
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+*/
+
 
 
 img{
@@ -71,7 +110,6 @@ img{
 
 #articulos{
   width: 100%;
-
   display: flex;
   justify-content: space-between;
   margin-top: 2%;
@@ -79,14 +117,13 @@ img{
 }
 
 nav a{
-  border: solid 2px red;
-  margin-right: 2%;
+/*   border: solid 2px red;
+ */  margin-right: 2%;
   text-decoration: none;
   color: black;
 }
 
 a{
-  border: solid 2px green;
   text-decoration: none;
   color: black;
 }
@@ -160,6 +197,7 @@ li {
 a:hover {
   color: gray; /* Cambia el color del texto del enlace al pasar el cursor por encima */
 }
+
 
 
 
