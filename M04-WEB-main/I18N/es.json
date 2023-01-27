@@ -3,7 +3,10 @@
     "last_name": "Apellidos",
     "email": "Gmail",
     "Password": "Contraseña",
-    "inicio_sesion": "Iniciar Sesión"
+    "inicio_sesion": "Iniciar Sesión",
+
+    "novedades": "Novedades",
+    "Mujer": "Mujer"
     
 
 

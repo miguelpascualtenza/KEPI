@@ -3,11 +3,9 @@
     "last_name": "Last Name",
     "email": "E-mail",
     "Password": "Password",
-    "inicio_sesion": "sign in"
+    "inicio_sesion": "sign in",
 
-
-
-
-
-
+    "novedades": "News",
+    "Mujer": "Women"
 }
+

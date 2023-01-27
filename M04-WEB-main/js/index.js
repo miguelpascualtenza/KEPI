@@ -29,21 +29,26 @@ async function changeLanguage(lang) {
   console.log(document);
   console.log(document.getElementById('last_name'));
   document.getElementById('last_name').placeholder = data.last_name;
-  document.getElementById('warning_last_name').innerHTML = data.warning_last_name;
 
   console.log(document);
   console.log(document.getElementById('email'));
   document.getElementById('email').placeholder = data.email;
-  document.getElementById('warning_email').innerHTML = data.warning_email;
 
   console.log(document);
   console.log(document.getElementById('Password'));
   document.getElementById('Password').placeholder = data.Password;
-  document.getElementById('warning_password').innerHTML = data.warning_password;
 
   console.log(document);
   console.log(document.getElementById('inicio_sesion'));
   document.getElementById('inicio_sesion').value = data.inicio_sesion;
+
+  console.log(document);
+  console.log(document.getElementById('novedades'));
+  document.getElementById('novedades').innerHTML = data.novedades;
+
+  console.log(document);
+  console.log(document.getElementById('Mujer'));
+  document.getElementById('Mujer').innerHTML = data.Mujer;
 
 
 
