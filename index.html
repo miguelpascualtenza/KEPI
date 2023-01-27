@@ -5,47 +5,49 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- iconos -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-  <link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
 
   <title>KEPI</title>
 </head>
 <body>
   <header>
-     <div> 
+    <div>
+      <nav>
       <div class="menu">
 
         <div class="submenu">
-          <nav>
             <ul>
               <li><a href="#">Mujer</a></li>
               <li><a href="#">Hombre</a></li>
               <li><a href="#">Niños</a></li>
               <li><a href="#">Belleza</a></li>
+              <li><a href="#">Contacto</a></li>
             </ul>
 
-          </nav>
         </div>
 
+        <a href="./index.html">
         <div id="logo">
-          <a href="#">
-<!--             kepi
- -->          </a>
+        </div>
+      </a>
+
+        <div >
+          <ul class="iconos">
+              <li><button onclick="changeLanguage('ca')"> CA</button></li>
+              <li><button onclick="changeLanguage('es')">ES</button></li>
+              <li><button onclick="changeLanguage('en')">EN</button></li>
+            <li><a href="../html/registrer.html"><i class="fa fa-globe"></i></a></li>
+            <li><a href="#"><i class="fa fa-user"></i></a></li>
+            <li><a href="#"><i class="fa fa-heart"></i></a></li>
+            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+            
+          </ul>
 
         </div>
-
-        <div class="iconos">
-          <a href="#"> <i class="fa fa-globe"></i>  </a>
-          <a href="#"> <i class="fa fa-user"></i>  </a>
-          <a href="#"> <i class="fa fa-heart"></i>  </a>
-          <a href="#"> <i class="fa fa-shopping-cart"></i>  </a>
-
-        </div>
-      
       </div>
+    </nav>
       <!-- <div class="menu">
 
           <nav>
@@ -78,18 +80,26 @@
       
       </div> -->
 
-     </div>
+    </div>
    
   </header>
 
   <main>
+    <section class="banner">
+      <img src="./img/moncler1.jpg" alt="articulo1">
+      <img src="./img/y3_1.jpg" alt="articulo1">
+      <img src="./img/burberry1.jpg" alt="articulo1">
+      <img src="./img/stone1.jpg"  alt="articulo1">
+  
+    </section>
+<!-- 
     <div class="banner">
       <a href="#">
 
         <img src="./img/banner.png" alt="Banner">
       </a>
 
-    </div>
+    </div>-->
     <div id="articulos">
       <div>
         <i>Novedades de marcas de lujo</i>
@@ -104,11 +114,9 @@
 
       <div>
         <a href="#">
-          <img src="./img/moncler1.jpg"   alt="articulo1">
+          <img src="./img/moncler1.jpg" alt="articulo1">
           <img src="./img/moncler2.jpg"  class="Foto2" alt="articulo1">
-        </a>
-        <a href="#">
-
+          
           <h3><b>Moncler</b></h3>
           <p>chaleco Tibb acolchado</p>
         </a>
@@ -116,7 +124,7 @@
 
       <div>
         <a href="#">
-          <img src="./img/y3_1.jpg"   alt="articulo1">
+          <img src="./img/y3_1.jpg" alt="articulo1">
           <img src="./img/y3_2.jpg"  class="Foto2" alt="articulo1">
           <h3><b>Y-3</b></h3>
           <p>sudadera con capucha</p>
@@ -126,7 +134,7 @@
       <div>
         <a href="#">
           
-          <img src="./img/burberry1.jpg"   alt="articulo1">
+          <img src="./img/burberry1.jpg" alt="articulo1">
           <img src="./img/burberry2.jpg" class="Foto2" alt="articulo1">
           <h3><b>Burberry</b></h3>
           <p>camiseta con logo estampado</p>
@@ -135,7 +143,7 @@
 
       <div>
         <a href="#">
-          <img src="./img/stone1.jpg"   alt="articulo1">
+          <img src="./img/stone1.jpg"  alt="articulo1">
           <img src="./img/stone2.jpg"  class="Foto2" alt="articulo1">
           
           <h3><b>Stone Island</b></h3>
@@ -146,6 +154,7 @@
     </div>
 
   </main>
+
 
 
 </body>
