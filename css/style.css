@@ -1,38 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
-
-html{
-  background-color: ;
-}
 
 header, main{
-  margin: 5%;
+  margin: 3%;
+
 }
 
 .menu {
   width: 100%;
-/*   border: solid 2px orange;
- */
+  border: solid 2px blue;
+
   display: flex;
   justify-content: space-between;
   margin-top: 2%;
   margin-right: 2%;
   
-}
-.submenu {
-/*   border: solid 2px green;
- */  width: 25%;
   
 }
+
+.submenu {
+  border: solid 2px turquoise;
+  width: 25%;
+  
+}
+
 .iconos {
-/*   border: solid 2px blue;
- */  text-align: right;
+  border: solid 2px violet;
+  text-align: right;
   width: 33%;
 
 }
 .iconos i{
-/*   border: solid 2px cyan;
- */  transform: scale(1.2);
-  text-align: right;
+  border:  solid 2px red;
+  transform: scale(1.2);
+  margin-right: 2%;
   
 }
 
@@ -42,16 +41,17 @@ header, main{
   text-align: center;
   font-family: 'Rubik Bubbles', cursive;
 /*   background-image: url(../logo/logo.svg);
- */  background-image: url(../logo/logo2.svg);
+ */  background-image: url(../logo/svg.svg);
   width: 40%;
   height: 10%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
   margin: auto;
-/*   border: solid 2px purple;
- */  transform: scale(3.1);
-}
+  border: solid 2px purple;
+  transform: scale(3.1);
+/*   margin-top: 0%;
+ */}
 
 
 
@@ -69,6 +69,7 @@ header, main{
 
 img{
   width: 80%;
+
 }
 
 #articulos{
@@ -81,13 +82,14 @@ img{
 }
 
 nav a{
-/*   border: solid 2px red;
- */  margin-right: 2%;
+  border: solid 2px red;
+  margin-right: 2%;
   text-decoration: none;
   color: black;
 }
 
 a{
+  border: solid 2px green;
   text-decoration: none;
   color: black;
 }
@@ -99,11 +101,16 @@ a{
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
   margin: auto 0;
+  
+  text-align: center;
+  align-items: center;
+  justify-content: center; 
+  
 }
 
 .ropa img {
-  width: 80%;
   height: auto;
+  border:  solid 2px red;
 }
 
 .ropa h3 {
@@ -112,37 +119,39 @@ a{
 }
 
 .ropa a {
-  padding: 10px 0;
   display: inline-block;
 }
 
 
 .ropa div {
 
-/*   border: solid 2px red;
- */  position: relative;
+  border: solid 2px red;
+  position: relative;
 }
 
 
 .Foto2 {
   position: absolute;
   top: 0;
-  left: 0;
+  margin-left: -80%;
   opacity: 0;
-  transition: all 0.5s;
+  transition: all 1s;
+  border-radius: 5%;
 }
 
-.ropa div:hover .Foto2 {
+/* .ropa div:hover .Foto2 {
+  transform: scale(1.1);
+  margin: center;
+  margin-top: 5%;
+  opacity: 1;
+} */
+
+.Foto2:hover  {
   transform: scale(1.1);
   margin: center;
   margin-top: 5%;
   opacity: 1;
 }
-
-
-
-
-
 
 
 ul {
