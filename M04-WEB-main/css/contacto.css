@@ -79,7 +79,7 @@ body {
   }
 
   .form-input input {
-    width: calc(100% - 20px);
+    width: 300px;
     padding: 10px;
     border: 2px solid rgba(185, 182, 211, 0.25);
     border-radius: 0.5em;
@@ -175,4 +175,10 @@ body {
     .sign-up-form input {
       padding-left: 1.5em;
     }
-}
+
+    input, textarea {
+      border: 1px solid black;
+      border-radius: 4px;
+      color: black;
+    }
+  }
