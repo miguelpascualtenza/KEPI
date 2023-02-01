@@ -9,18 +9,25 @@
   <link rel="stylesheet" href="./css/reset.css"> <!-- RESET -->
   <link rel="stylesheet" href="./css/style.css"> <!-- CSS -->
   <!-- <script src="./js/main.js"></script> -->           <!-- JS -->
+  <!--icono de la pagina-->
+  <link rel="shortcut icon" href="./logo/logo.svg">
 
   <title>KEPI</title>
 </head>
 <body>
   <!-- INICIO MENU -->
   <header>
+    <div class="menu-btn">
+      <i>E</i>
+    </div>
+
     <div>
       <nav>
       <div class="menu">
 
-        <div class="submenu">
-            <ul>
+<!--         <div class="submenu">
+
+ -->        <ul class="nav-menu">
               <li><a href="./html/hombres.html">Hombre</a></li>
               <li><a href="./html/mujeres.html">Mujer</a></li>
               <li><a href="./html/niños.html">Niños</a></li>
@@ -28,8 +35,8 @@
               <li><a href="./html/contacto.html">Contacto</a></li>
             </ul>
 
-        </div>
-
+<!--         </div>
+ -->
         <a href="./index.html">
         <div id="logo">
         </div>
@@ -37,16 +44,13 @@
 
         <div >
           <ul class="iconos">
-              <li><button onclick="changeLanguage('ca')"> CA</button></li>
-              <li><button onclick="changeLanguage('es')">ES</button></li>
-              <li><button onclick="changeLanguage('en')">EN</button></li>
-            <li><a href="../html/registrer.html"><i class="fa fa-globe"></i></a></li>
-            <li><a href="#"><i class="fa fa-user"></i></a></li>
-            <li><a href="#"><i class="fa fa-heart"></i></a></li>
-            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+              <li><button id="ca" onclick="changeLanguage('ca')"></button></li>
+              <li><button id="es" onclick="changeLanguage('es')"></button></li>
+              <li><button id="en" 1onclick="changeLanguage('en')"></button></li>
+              <li><a href="../html/registrer.html"><i class="fa fa-user"></i></a></li>
+              <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
             
           </ul>
-
         </div>
       </div>
     </nav>
@@ -85,6 +89,8 @@
     <br>
     <br>
     
+
+
       <!--  INICIO fila ropa -->
     <div class="ropa">
       <div>
@@ -132,6 +138,7 @@
   </main>
 
   <script>
+
     /* Carousel */
 const imagenes = document.querySelectorAll('.imagen'); //array con todas las imagenes
 let imagenActual = 0; //sigue el array de imagenes
@@ -149,6 +156,12 @@ setInterval(() => {
   imagenActual = (imagenActual + 1) % imagenes.length; //pasa a la siguente imagen cada 2seg
   mostrarImagen();
 }, 2000);
+
+
+/* menu responsibe */
+document.querySelector(".menu-btn").addEventListener("click", () => {
+document.querySelector(".nav-menu").classList.toggle("show");
+});
 
   </script>
 </body>
