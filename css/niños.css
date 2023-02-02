@@ -1,0 +1,218 @@
+/* body{overflow : hidden; overflow-y : scroll; 
+  overflow : -moz-scrollbars-vertica} */
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+  header, main{
+    margin: 5%;
+  }
+  
+  .menu {
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-right: 2%;
+    
+  }
+  .submenu {
+    width: 25%;
+  }
+  
+  .iconos {
+    text-align: right;
+    width: 33%;
+  }
+  
+  .iconos i{
+    transform: scale(1.2);
+    text-align: right;  
+  }
+  
+  #logo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 10%;
+    height: 10%;
+  
+    background-image: url(../logo/logo2.svg);
+  
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+  
+  
+  .banner{  
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    height: 500px;
+    width: auto;
+    display: flex;
+  }
+  
+  .banner img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .7s ease;
+  }
+  
+  .banner img:hover{
+    width: 20%;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+  
+  
+  /* Estilos para el carousel */
+  .carousel {
+    height: 50%;
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+    position: relative;
+  }
+  
+  .imagen {
+    width: 100%;
+    display: none;
+  }
+  
+  .imagen img {
+    width: 100%;
+  }
+  
+  /* @media (max-width: 600px) {
+    .carousel {
+      display: flex;
+    }
+  }
+  
+  @media (min-width: 601px) {
+    .carousel {
+      display: none;
+    }
+  } */
+  
+  
+  .ropa img{
+    width: 80%;
+  }
+  
+  
+  nav a{
+  /*   border: solid 2px red;
+   */  margin-right: 2%;
+    text-decoration: none;
+    color: black;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  a.active{
+    text-decoration: underline;
+  }
+  
+  
+  
+  /* fila ropa */
+  .ropa {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: auto 0;
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    height: 500px;
+  }
+  
+  .ropa img {
+    height: auto;
+  }
+  
+  .ropa h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .ropa a {
+    display: inline-block;
+  }
+  
+  
+  .ropa div {
+  
+    position: relative;
+  }
+  
+  
+  .Foto2 {
+    position: absolute;
+    top: 0;
+    margin-left: -80%;
+    opacity: 0;
+    transition: all .7s;
+    border-radius: 5%;
+  }
+  
+  
+  .Foto2:hover  {
+    transform: scale(1.1);
+    margin: center;
+    margin-top: 5%;
+    opacity: 1;
+  }
+  
+  
+  ul {
+    display: flex; /* Muestra los elementos hijos (li) en formato horizontal */
+  }
+  
+  li {
+    list-style: none; /* Quita los puntos de la lista */
+    margin: 0 5px; /* Añade espacio entre los elementos (li) */
+    flex-direction: row;
+  
+  }
+  
+  
+  a:hover {
+    color: gray; /* Cambia el color del texto del enlace al pasar el cursor por encima */
+  }
+  
+  
+  
+  @media (max-width: 600px) {
+    .banner{
+      display: none; /* Se quita el banne */
+    }
+    .carousel {
+      display: flex;
+    }
+    .ropa {
+      grid-template-columns: repeat(2, 1fr); /* solo 2 imagenes por fila */
+    }
+    nav {
+      flex-direction: column; /* Muestra los elementos hijos (li) en formato vertical */
+    }
+    li {
+      margin: 10px 0; /* Añade espacio entre los elementos (li) */
+    }
+  }
+  
+  @media (max-width: 300px) {
+    .ropa {
+      grid-template-columns: repeat(1, 1fr); /* solo 1 imagen por fila */
+    }
+  }
