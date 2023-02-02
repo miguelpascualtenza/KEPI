@@ -1,0 +1,50 @@
+{
+    "first_name": "Nom",
+    "last_name": "Cognoms",
+    "email": "Gmail",
+    "Password": "Contrasenya",
+    "inicio_sesion": "Inici de Sessió",
+
+
+    "first_nameContact": "Nom",
+    "last_nameContact": "Cognoms",
+    "emailContact": "Gmail",
+    "telefonoContact": "Telèfon",
+    "conceptoContact": "Concepte",
+    "envioContact": "Enviar comentari",
+
+
+    "HombreHombre": "Home",
+    "MujerHombre": "Dona",
+    "NiñosHombre": "Nens",
+    "BellezaHombre": "Bellesa",
+    "contactHombre": "Contacte",
+
+
+    "chalecoMoncler": "Armilla Encoixinada Moncler",
+    "camisaY3": "Samarreta de maniga curta Y-3",
+    "camisetaBurberry": "Samarreta de maniga curta Burberry",
+    "stoneIlandSudadera": "Dessuadora Stone Island",
+    "sudaderay3": "Dessuadora Y-3",
+    "chaquetaMoncler": "Jaqueta Moncler",
+    "camisetaBurberry1": "Samarreta de maniga curta Burberry",
+    "stoneIslandShirt": "Samarreta de maniga curta Stone Island",
+    "poloMoncler": "Polo Moncler",
+    "cortay3": "Samarreta de maniga curta Y-3",
+    "burrberry3": "Samarreta de maniga curta Burberry",
+    "chaquetaStone": "Jaqueta Stone Island",
+
+
+    
+   "chalecoMoncler3": "Armilla Encoixinada Moncler",
+   "camisay3m": "Samarreta de maniga curta Y-3",
+   "camisaBurberrym": "Samarreta de maniga curta Burberry",
+   "sudaderastoneis": "Dessuadora Stone Island",
+   "camisaMonclerm": "Samarreta de maniga curta Moncler",
+   "camisanig": "Samarreta de maniga curta Y-3",
+   "camisarayas": "Samarreta de maniga curta Burberry",
+   "sudaderastoneisla": "Dessuadora Stone Island"
+
+
+
+}
