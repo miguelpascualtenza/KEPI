@@ -224,6 +224,8 @@ async function changeLanguage(lang) {
 
 
 
+/* marc he hecho todo lo del json, lo de traducir a todos los idiomas
+*/
 
 
 }
