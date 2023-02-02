@@ -8,14 +8,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <!-- ICONOS -->
   <link rel="stylesheet" href="./css/reset.css"> <!-- RESET -->
   <link rel="stylesheet" href="./css/style.css"> <!-- CSS -->
-  <link rel="stylesheet" href="./js/main.js"> <!-- JS -->
+  <script src="./js/main.js" defer></script>    <!-- JS -->
+  <link rel="shortcut icon" href="./logo/logo.svg">  <!--icono de la pagina-->
 
-  <!--icono de la pagina-->
-  <link rel="shortcut icon" href="./logo/logo.svg">
 
   <title>KEPI</title>
 </head>
 <body>
+  <!-- Miguel Pascual -->
+
   <!-- INICIO MENU -->
   <header>
     <div class="menu-btn">
@@ -36,6 +37,7 @@
               <li><a href="./html/contacto.html">Contacto</a></li>
             </ul>
 
+
 <!--         </div>
  -->
         <a href="./index.html">
@@ -47,7 +49,8 @@
           <ul class="iconos">
               <li><button id="ca" onclick="changeLanguage('ca')"></button></li>
               <li><button id="es" onclick="changeLanguage('es')"></button></li>
-              <li><button id="en" 1onclick="changeLanguage('en')"></button></li>
+              <li><button id="en" onclick="changeLanguage('en')"></button></li>
+
               <li><a href="./html/register.html"><i class="fa fa-user"></i></a></li>
               <li><a href="./html/carrito.html"><i class="fa fa-shopping-cart"></i></a></li>
             
@@ -136,7 +139,6 @@
     </div>
     <!-- FIN fila ropa -->
 
-  </main>
 
   <script>
 
@@ -164,6 +166,12 @@ document.querySelector(".menu-btn").addEventListener("click", () => {
 document.querySelector(".nav-menu").classList.toggle("show");
 });
 
-  </script>
+  </main>
+        <!-- Footer -->
+  <footer class="footer">
+    <span> © 2023 KEPI, Inc. Todos los derechos reservados</span>
+  </footer>
+
+
 </body>
 </html>

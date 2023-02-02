@@ -4,6 +4,11 @@
     "email": "E-mail",
     "Password": "Password",
     "inicio_sesion": "sign in",
+
+
+    "novedades": "News",
+    "mujer": "Women"
+
     
 
     "first_nameContact": "Name",
@@ -48,6 +53,7 @@
 
 
     
+
 
 }
 

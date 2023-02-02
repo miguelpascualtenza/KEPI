@@ -1,13 +1,33 @@
-/* Carousel */
-const imagenes = document.querySelectorAll('.imagen'); //array con todas las imagenes
-let imagenActual = 0; //sigue el array de imagenes
+ /* Inicio Miguel Pascual */
+ /* Carousel */
+  const imagenes = document.querySelectorAll('.imagen'); //array con todas las imagenes
+  let imagenActual = 0; //sigue el array de imagenes
 
-function mostrarImagen() {
-  imagenes.forEach((imagen) => {
-   imagen.style.display = 'none'; //oculta todas las imagenes
+  function mostrarImagen() {
+    imagenes.forEach((imagen) => {
+     imagen.style.display = 'none'; //oculta todas las imagenes
+    });
+    imagenes[imagenActual].style.display = 'block'; //muestra solo la que la imagenActual dice
+  }
+
+  mostrarImagen();
+
+  setInterval(() => {
+    imagenActual = (imagenActual + 1) % imagenes.length; //pasa a la siguente imagen cada 2seg
+    mostrarImagen();
+  }, 2000);
+
+
+  /* menu responsibe */
+  document.querySelector(".menu-btn").addEventListener("click", () => {
+  document.querySelector(".nav-menu").classList.toggle("show");
   });
-  imagenes[imagenActual].style.display = 'block'; //muestra solo la que la imagenActual dice
-}
+
+  document.querySelector(".menu-btn").addEventListener("click", () => {
+  document.querySelector(".iconos").classList.toggle("show");
+  });
+   /* Final Miguel Pascual */
+
 
 mostrarImagen();
 
@@ -37,6 +57,7 @@ async function changeLanguage(lang) {
 
   // Canviar els texts (Aquesta és la part que heu de modificar)
 
+
   //Este es de la pagina register
 
   console.log(document);
@@ -58,6 +79,7 @@ async function changeLanguage(lang) {
 
   console.log(document);
   console.log(document.getElementById('inicio_sesion'));
+
   document.getElementById('inicio_sesion').innerHTML = data.inicio_sesion;
 
 
@@ -199,6 +221,8 @@ async function changeLanguage(lang) {
     console.log(document);
     console.log(document.getElementById('sudaderastoneisla'));
     document.getElementById('sudaderastoneisla').innerHTML = data.sudaderastoneisla;
+
+
 
 
 

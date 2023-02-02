@@ -8,6 +8,8 @@ body {
     background-color: rgb(250, 247, 247);
   }
 
+
+
   button{
     background-color: rgb(250, 247, 247);
     border-style: none;
@@ -23,6 +25,7 @@ body {
     top: 10px;
     right: 10px;
 }
+
 
   a{
     text-decoration: none;
@@ -200,3 +203,4 @@ body {
   }
 
 /*   Lo ha hecho el oscar */
+
