@@ -1,0 +1,21 @@
+{
+    "first_name": "Nom",
+    "last_name": "Cognoms",
+    "email": "Gmail",
+    "Password": "Contrasenya",
+    "inicio_sesion": "Inici de Sessió",
+
+
+    "first_nameContact": "Nom",
+    "last_nameContact": "Cognoms",
+    "emailContact": "Gmail",
+    "telefonoContact": "Telèfon",
+    "conceptoContact": "Concepte",
+    "envioContact": "Enviar comentari"
+    
+
+
+
+
+
+}
