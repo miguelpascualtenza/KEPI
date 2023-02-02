@@ -1,10 +1,13 @@
 /* body{overflow : hidden; overflow-y : scroll; 
   overflow : -moz-scrollbars-vertica} */
 
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
   header, main{
     margin: 5%;
   }
-  /* MENU */
+  
   .menu {
     width: 100%;
   
@@ -14,22 +17,11 @@
     margin-right: 2%;
     
   }
-  .nav-menu {
+
+  .submenu {
     width: 25%;
   }
   
-  
-  
-  a{
-    text-decoration: none;
-    color: black;
-  }
-    
-  a.active{
-    text-decoration: underline;
-  }
-  
-  /* ICONOS */
   .iconos {
     text-align: right;
     width: 33%;
@@ -39,35 +31,8 @@
     transform: scale(1.2);
     text-align: right;  
   }
-  /* bandera ca, es, en */
-  #ca, #es, #en{
-    background-repeat: no-repeat;
-    background-size: 100% 80%;
-    text-decoration: none;
-    background-color: white;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    margin-top: 2%;
-    margin-right: 2%;
-    text-align: right;
-    height: 100%;
-    scale: 1.2;
-    margin-bottom: 0;
-    
-  }
+
   
-  #ca{
-    background-image: url(../img/banderas/cat.webp);
-  }
-  #es{
-    background-image: url(../img/banderas/es.webp);
-  }
-  #en{
-    background-image: url(../img/banderas/en.webp);
-  }
-  
-  /* LOGO */
   #logo{
     position: absolute;
     left: 50%;
@@ -195,20 +160,10 @@
   
   }
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   
   /* BANNER */
+
   .banner{  
     margin-left: 10%;
     margin-right: 10%;
@@ -251,12 +206,39 @@
     width: 100%;
   }
   
+  /* @media (max-width: 600px) {
+    .carousel {
+      display: flex;
+    }
+  }
+  
+  @media (min-width: 601px) {
+    .carousel {
+      display: none;
+    }
+  } */
   
   
+  .ropa img{
+    width: 80%;
+  }
   
   
+  nav a{
+  /*   border: solid 2px red;
+   */  margin-right: 2%;
+    text-decoration: none;
+    color: black;
+  }
   
+  a{
+    text-decoration: none;
+    color: black;
+  }
   
+  a.active{
+    text-decoration: underline;
+  }  
   
   
   /* fila ropa */
@@ -324,7 +306,8 @@
   
   
   a:hover {
-    color: gray; 
+
+    color: gray; /* Cambia el color del texto del enlace al pasar el cursor por encima */
   }
   
   
@@ -351,4 +334,7 @@
     .ropa {
       grid-template-columns: repeat(1, 1fr); /* solo 1 imagen por fila */
     }
+
   }
+
+/*   lo hemos hecho todos */

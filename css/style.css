@@ -327,17 +327,86 @@ a:hover {
   /* ropa */
   .ropa {
     grid-template-columns: repeat(2, 1fr); /* solo 2 imagenes por fila */
+
   }
-  nav {
-    flex-direction: column; /* Muestra los elementos hijos (li) en formato vertical */
+  
+  .ropa img {
+    height: auto;
   }
+  
+  .ropa h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .ropa a {
+    display: inline-block;
+  }
+  
+  
+  .ropa div {
+  
+    position: relative;
+  }
+  
+  
+  .Foto2 {
+    position: absolute;
+    top: 0;
+    margin-left: -80%;
+    opacity: 0;
+    transition: all .7s;
+    border-radius: 5%;
+  }
+  
+  
+  .Foto2:hover  {
+    transform: scale(1.1);
+    margin: center;
+    margin-top: 5%;
+    opacity: 1;
+  }
+  
+  
+  ul {
+    display: flex; /* Muestra los elementos hijos (li) en formato horizontal */
+  }
+  
   li {
-    margin: 10px 0; /* Añade espacio entre los elementos (li) */
+    list-style: none; /* Quita los puntos de la lista */
+    margin: 0 5px; /* Añade espacio entre los elementos (li) */
+    flex-direction: row;
+  
   }
 }
 
 @media (max-width: 300px) {
   .ropa {
     grid-template-columns: repeat(1, 1fr); /* solo 1 imagen por fila */
+
   }
-}
+  
+  
+  @media (max-width: 600px) {
+    .banner{
+      display: none; /* Se quita el banne */
+    }
+    .carousel {
+      display: flex;
+    }
+    .ropa {
+      grid-template-columns: repeat(2, 1fr); /* solo 2 imagenes por fila */
+    }
+    nav {
+      flex-direction: column; /* Muestra los elementos hijos (li) en formato vertical */
+    }
+    li {
+      margin: 10px 0; /* Añade espacio entre los elementos (li) */
+    }
+  }
+  
+  @media (max-width: 300px) {
+    .ropa {
+      grid-template-columns: repeat(1, 1fr); /* solo 1 imagen por fila */
+    }
+  }

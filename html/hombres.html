@@ -8,35 +8,31 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <!-- ICONOS -->
   <link rel="stylesheet" href="./css/reset.css"> <!-- RESET -->
   <link rel="stylesheet" href="../css/hombre.css"> <!-- CSS -->
-  <!-- <script src="./js/main.js"></script> -->           <!-- JS -->
-  <!--icono de la pagina-->
-  <link rel="shortcut icon" href="../logo/logo.svg">
+
+  <link rel="stylesheet" href="../js/main.js">    <!-- JS -->
 
   <title>HOMBRES</title>
 </head>
 <body>
   <!-- INICIO MENU -->
   <header>
-    <div class="menu-btn">
-      <i>E</i>
-    </div>
 
     <div>
       <nav>
       <div class="menu">
 
-<!--         <div class="submenu">
 
- -->        <ul class="nav-menu">
-              <li><a href="../html/hombres.html">Hombre</a></li>
-              <li><a href="../html/mujeres.html">Mujer</a></li>
-              <li><a href="../html/niños.html">Niños</a></li>
-              <li><a href="../html/belleza.html">Belleza</a></li>
-              <li><a href="../html/contacto.html">Contacto</a></li>
+        <div class="submenu">
+            <ul>
+              <li><a href="./hombres.html" id="HombreHombre">Hombre</a></li>
+              <li><a href="./mujeres.html"id="MujerHombre">Mujer</a></li>
+              <li><a href="#" id="NiñosHombre">Niños</a></li>
+              <li><a href="#" id="BellezaHombre">Belleza</a></li>   
+              <li><a href="./contacto.html" id="contactHombre">Contacto</a></li>
             </ul>
 
-<!--         </div>
- -->
+        </div>
+
         <a href="../index.html">
         <div id="logo">
         </div>
@@ -44,13 +40,17 @@
 
         <div >
           <ul class="iconos">
-              <li><button id="ca" onclick="changeLanguage('ca')"></button></li>
-              <li><button id="es" onclick="changeLanguage('es')"></button></li>
-              <li><button id="en" 1onclick="changeLanguage('en')"></button></li>
-              <li><a href="./html/register.html"><i class="fa fa-user"></i></a></li>
-              <li><a href="./html/carrito.html"><i class="fa fa-shopping-cart"></i></a></li>
+
+              <li><button onclick="changeLanguage('ca')">CA</button></li>
+              <li><button onclick="changeLanguage('es')">ES</button></li>
+              <li><button onclick="changeLanguage('en')">EN</button></li>
+            <li><a href="#"><i class="fa fa-globe"></i></a></li>
+            <li><a href="../html/register.html"><i class="fa fa-user"></i></a></li>
+            <li><a href="#"><i class="fa fa-heart"></i></a></li>
+            <li><a href="../html/carrito.html"><i class="fa fa-shopping-cart"></i></a></li>
             
           </ul>
+
         </div>
       </div>
     </nav>
@@ -59,6 +59,7 @@
    
   </header>
     <!-- FIN MENU -->
+
 
   <main>
    
@@ -70,7 +71,8 @@
           <img src="../img/moncler2.jpg"  class="Foto2" alt="articulo1">
   
           <h3><b>Moncler</b></h3>
-          <p>chaleco Tibb acolchado</p>
+
+          <p id="chalecoMoncler">chaleco Tibb acolchado</p>
         </a>
       </div>
   
@@ -79,7 +81,8 @@
           <img src="../img/camiseta y-3.jpg"   alt="articulo1">
           <img src="../img/espalda camiseta y-3.jpg"  class="Foto2" alt="articulo1">
           <h3><b>Y-3</b></h3>
-          <p>camiseta manga corta</p>
+
+          <p id="camisaY3">camiseta manga corta</p>
         </a>
       </div>
   
@@ -89,7 +92,8 @@
           <img src="../img/burberry1.jpg"   alt="articulo1">
           <img src="../img/burberry2.jpg" class="Foto2" alt="articulo1">
           <h3><b>Burberry</b></h3>
-          <p>camiseta con logo estampado</p>
+
+          <p id="camisetaBurberry">camiseta con logo estampado</p>
         </a>
         </div>
   
@@ -99,11 +103,14 @@
           <img src="../img/stone4.jpg"  class="Foto2" alt="articulo1">
           
           <h3><b>Stone Island</b></h3>
-          <p>sudadera con parches Compass</p>
+
+          <p id="stoneIlandSudadera">sudadera con parches Compass</p>
         </a>
       </div>
   
     </div>
+
+    <br>  
     <!-- FIN fila ropa -->
 
     <!--  INICIO segunda fila ropa -->
@@ -114,7 +121,8 @@
           <img src="../img/sudadera y-3.jpg"  class="Foto2" alt="articulo1">
   
           <h3><b>Y-3</b></h3>
-          <p>sudadera manga larga</p>
+
+          <p id="sudaderay3">sudadera manga larga</p>
         </a>
       </div>
   
@@ -123,7 +131,8 @@
           <img src="../img/imagenesHombres/chaqueta moncler.jpg"   alt="articulo1">
           <img src="../img/imagenesHombres/chaqueta mocler2.jpg"  class="Foto2" alt="articulo1">
           <h3><b>Mocler</b></h3>
-          <p>Chaqueta mocler</p>
+
+          <p id="chaquetaMoncler">Chaqueta mocler</p>
         </a>
       </div>
   
@@ -133,7 +142,8 @@
           <img src="../img/burberry1.jpg"   alt="articulo1">
           <img src="../img/burberry2.jpg" class="Foto2" alt="articulo1">
           <h3><b>Burberry</b></h3>
-          <p>camiseta con logo estampado</p>
+
+          <p id="camisetaBurberry1">camiseta con logo estampado</p>
         </a>
         </div>
   
@@ -143,11 +153,14 @@
           <img src="../img/imagenesHombres/stoneilandblanca1.png"  class="Foto2" alt="articulo1">
           
           <h3><b>Stone Island</b></h3>
-          <p>camiseta manga corta</p>
+
+          <p id="stoneIslandShirt">camiseta manga corta</p>
         </a>
       </div>
   
     </div>
+
+    <br> 
     <!-- FIN segunda fila ropa -->
 
 <!--  INICIO tercera fila ropa -->
@@ -158,7 +171,8 @@
         <img src="../img/imagenesHombres/polo mocler2.jpg"  class="Foto2" alt="articulo1">
 
         <h3><b>Moncler</b></h3>
-        <p>Polo mocler</p>
+
+        <p id="poloMoncler">Polo mocler</p>
       </a>
     </div>
 
@@ -167,7 +181,8 @@
         <img src="../img/principal y3.jpg"   alt="articulo1">
         <img src="../img/cerca y-3.jpg"  class="Foto2" alt="articulo1">
         <h3><b>Y-3</b></h3>
-        <p>camiseta manga corta</p>
+
+        <p id="cortay3">camiseta manga corta</p>
       </a>
     </div>
 
@@ -177,7 +192,8 @@
         <img src="../img/burberry1.jpg"   alt="articulo1">
         <img src="../img/burberry2.jpg" class="Foto2" alt="articulo1">
         <h3><b>Burberry</b></h3>
-        <p>camiseta con logo estampado</p>
+
+        <p id="burrberry3">camiseta con logo estampado</p>
       </a>
       </div>
 
@@ -187,7 +203,8 @@
         <img src="../img/imagenesHombres/chaquetastone1.jpg"  class="Foto2" alt="articulo1">
         
         <h3><b>Stone Island</b></h3>
-        <p>chqueta</p>
+
+        <p id="chaquetaStone">chqueta</p>
       </a>
     </div>
 
@@ -217,4 +234,7 @@ setInterval(() => {
 
   </script>
 </body>
+
+<!-- Lo hemos hecho el Oscar y el Marc -->
+
 </html>

@@ -5,7 +5,55 @@
     "Password": "Password",
     "inicio_sesion": "sign in",
 
+
     "novedades": "News",
     "mujer": "Women"
+
+    
+
+    "first_nameContact": "Name",
+    "last_nameContact": "Last Name",
+    "emailContact": "E-mail",
+    "telefonoContact": "Phone number",
+    "conceptoContact": "Concept",
+    "envioContact": "Send Comment",
+
+
+    "HombreHombre": "Man",
+    "MujerHombre": "Women",
+    "NiñosHombre": "Kids",
+    "BellezaHombre": "Beauty",
+    "contactHombre": "Contact",
+
+
+    "chalecoMoncler": "Padded Vest Moncler",
+    "camisaY3": "Y-3 T-Shirt",
+    "camisetaBurberry": "Burberry T-Shirt",
+    "stoneIlandSudadera": "Stone Island Hoodie",
+    "sudaderay3": "Y-3 Hoodie",
+    "chaquetaMoncler": "Moncler Jacket",
+    "camisetaBurberry1": "Burberry T-Shirt",
+    "stoneIslandShirt": "Stone Island T-Shirt",
+    "poloMoncler": "Moncler Polo",
+    "cortay3": "Y-3 T-Shirt",
+    "burrberry3": "Burberry T-Shirt",
+    "chaquetaStone": "Stone Island Jacket",
+    
+    
+    "chalecoMoncler3": "Padded Vest Moncler",
+    "camisay3m": "Y-3 T-Shirt",
+    "camisaBurberrym": "Burberry T-Shirt",
+    "sudaderastoneis": "Stone Island Hoodie",
+    "camisaMonclerm": "Moncler T-Shirt",
+    "camisanig": "Y-3 T-Shirt",
+    "camisarayas": "Burberry T-Shirt",
+    "sudaderastoneisla": "Stone Island Hoodie",
+    
+
+
+
+    
+
+
 }
 
