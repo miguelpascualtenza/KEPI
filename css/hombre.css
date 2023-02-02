@@ -30,6 +30,10 @@
   }
   
   /* ICONOS */
+  .submenu {
+    width: 25%;
+  }
+  
   .iconos {
     text-align: right;
     width: 33%;
@@ -68,6 +72,7 @@
   }
   
   /* LOGO */
+  
   #logo{
     position: absolute;
     left: 50%;
@@ -251,11 +256,40 @@
     width: 100%;
   }
   
+
+  /* @media (max-width: 600px) {
+    .carousel {
+      display: flex;
+    }
+  }
+  
+  @media (min-width: 601px) {
+    .carousel {
+      display: none;
+    }
+  } */
   
   
+  .ropa img{
+    width: 80%;
+  }
   
   
+  nav a{
+  /*   border: solid 2px red;
+   */  margin-right: 2%;
+    text-decoration: none;
+    color: black;
+  }
   
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  a.active{
+    text-decoration: underline;
+  }
   
   
   
@@ -325,7 +359,7 @@
   
   
   a:hover {
-    color: gray; 
+    color: gray; /* Cambia el color del texto del enlace al pasar el cursor por encima */
   }
   
   
@@ -353,3 +387,5 @@
       grid-template-columns: repeat(1, 1fr); /* solo 1 imagen por fila */
     }
   }
+
+  /* lo hemos hecho el oscar y marc */
