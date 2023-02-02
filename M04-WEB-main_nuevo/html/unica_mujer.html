@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <!-- ICONOS -->
+  <link rel="stylesheet" href="../css/reset.css"> <!-- RESET -->
+  <link rel="stylesheet" href="../css/unica_mujer.css"> <!-- CSS -->
+  <script src="../js/main.js" defer></script>    <!-- JS -->
+  <link rel="shortcut icon" href="../logo/logo.svg">  <!--icono de la pagina-->
+
+  <title>KEPI</title>
+</head>
+<body>
+  <!-- Miguel Pascual -->
+  <!-- INICIO MENU -->
+  <header>
+    <div class="menu-btn">
+      <i>☰</i>
+    </div>
+
+    <div>
+      <nav>
+      <div class="menu">
+
+<!--         <div class="submenu">
+ -->        <ul class="nav-menu">
+              <li><a href="../html/hombres.html">Hombre</a></li>
+              <li><a href="../html/mujeres.html">Mujer</a></li>
+              <li><a href="../html/niños.html">Niños</a></li>
+              <li><a href="../html/belleza.html">Belleza</a></li>
+              <li><a href="../html/contacto.html">Contacto</a></li>
+            </ul>
+
+<!--         </div>
+ -->
+        <a href="../index.html">
+        <div id="logo">
+        </div>
+      </a>
+
+        <div >
+          <ul class="iconos">
+              <li><button id="ca" onclick="changeLanguage('ca')"></button></li>
+              <li><button id="es" onclick="changeLanguage('es')"></button></li>
+              <li><button id="en" onclick="changeLanguage('en')"></button></li>
+              <li><a href="./html/register.html"><i class="fa fa-user"></i></a></li>
+              <li><a href="./html/carrito.html"><i class="fa fa-shopping-cart"></i></a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    </div>
+   
+  </header>
+    <!-- FIN MENU -->
+
+
+  <main>
+    <div class="ropa">
+      <div>
+        <a href="#">
+          <img src="../img/moncler3.jpg""   alt="articulo1">     
+          <img src="../img/61362277f5966900044cbf5a.png" alt="" id="logobr">
+          <h3><b>Burberry</b></h3>
+          <h4>
+            ――――――――――――――――――――――――
+            <br>
+            S
+            <br>
+            <br>
+            M
+            <br>
+            <br>
+            L
+            <br>
+            ――――――――――――――――――――――――
+          </h4>
+          <h5>
+            <br><br><br><br><br><br>
+            COMPOSICIÓN, CUIDADOS & ORIGEN
+            <br><br><br>
+            COMPOSICIÓN
+            <br><br>
+            Trabajamos con programas de seguimiento para garantizar 
+            <br>
+            el cumplimiento de nuestros estándares sociales, medioambientales 
+            <br>
+            y de seguridad y salud de nuestras prendas.
+            <br><br>
+            Para evaluar su cumplimiento hemos desarrollado
+            <br>
+            un programa de auditorías y planes de mejora continua.
+            <br><br>
+            EXTERIOR
+            <br>
+            100% poliéster
+            <br><br>
+            CUIDADOS
+            <br>
+            Cuidar de tus prendas es cuidar del medioambiente
+          </h5>
+          <p>Camisa con Logo Estampado</p>
+        </a>
+      </div>
+      <div>
+        <br>
+        <button class="button" type="submit" onclick="location.href ='./carrito.html'">Añadir a la Cesta</button>
+        </div>
+  </main>
+
+  <script>
+    const imagenes = document.querySelectorAll('.imagen'); //array con todas las imagenes
+let imagenActual = 0; //sigue el array de imagenes
+
+function mostrarImagen() {
+  imagenes.forEach((imagen) => {
+   imagen.style.display = 'none'; //oculta todas las imagenes
+  });
+  imagenes[imagenActual].style.display = 'block'; //muestra solo la que la imagenActual dice
+}
+
+mostrarImagen();
+
+setInterval(() => {
+  imagenActual = (imagenActual + 1) % imagenes.length; //pasa a la siguente imagen cada 2seg
+  mostrarImagen();
+}, 2000);
+
+
+/* menu responsibe */
+document.querySelector(".menu-btn").addEventListener("click", () => {
+document.querySelector(".nav-menu").classList.toggle("show");
+});
+
+  </script>  
+</body>
+</html>
