@@ -3,16 +3,11 @@
     "last_name": "Apellidos",
     "email": "Gmail",
     "Password": "Contraseña",
-    "inicio_sesion": "Iniciar Sesión",
+    "inicio_sesion": "Iniciar Sesión",   
 
 
-    "novedades": "Novedades",
-    "mujer": "Mujer"
-    
-
-
-    "first_nameContact": "Nombre",
-    "last_nameContact": "Apellidos",
+    "first-nameContact": "Nombre",
+    "last-nameContact": "Apellidos",
     "emailContact": "Gmail",
     "telefonoContact": "Numero Teléfono",
     "conceptoContact": "Concepto",
@@ -47,7 +42,7 @@
     "camisaMonclerm": "Camiseta de manga corta Moncler",
     "camisanig": "Camiseta de manga corta Y-3",
     "camisarayas": "Camiseta de manga corta Burberry",
-     "sudaderastoneisla": "Sudadera Stone Island",
+     "sudaderastoneisla": "Sudadera Stone Island"
 
 
 

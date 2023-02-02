@@ -11,12 +11,10 @@
   <script src="./js/main.js" defer></script>    <!-- JS -->
   <link rel="shortcut icon" href="./logo/logo.svg">  <!--icono de la pagina-->
 
-
   <title>KEPI</title>
 </head>
 <body>
   <!-- Miguel Pascual -->
-
   <!-- INICIO MENU -->
   <header>
     <div class="menu-btn">
@@ -37,10 +35,9 @@
               <li><a href="./html/contacto.html">Contacto</a></li>
             </ul>
 
-
 <!--         </div>
  -->
-        <a href="./index.html">
+        <a href="./index.html">   
         <div id="logo">
         </div>
       </a>
@@ -50,7 +47,6 @@
               <li><button id="ca" onclick="changeLanguage('ca')"></button></li>
               <li><button id="es" onclick="changeLanguage('es')"></button></li>
               <li><button id="en" onclick="changeLanguage('en')"></button></li>
-
               <li><a href="./html/register.html"><i class="fa fa-user"></i></a></li>
               <li><a href="./html/carrito.html"><i class="fa fa-shopping-cart"></i></a></li>
             
@@ -140,38 +136,12 @@
     <!-- FIN fila ropa -->
 
 
-  <script>
-
-    /* Carousel */
-const imagenes = document.querySelectorAll('.imagen'); //array con todas las imagenes
-let imagenActual = 0; //sigue el array de imagenes
-
-function mostrarImagen() {
-  imagenes.forEach((imagen) => {
-   imagen.style.display = 'none'; //oculta todas las imagenes
-  });
-  imagenes[imagenActual].style.display = 'block'; //muestra solo la que la imagenActual dice
-}
-
-mostrarImagen();
-
-setInterval(() => {
-  imagenActual = (imagenActual + 1) % imagenes.length; //pasa a la siguente imagen cada 2seg
-  mostrarImagen();
-}, 2000);
-
-
-/* menu responsibe */
-document.querySelector(".menu-btn").addEventListener("click", () => {
-document.querySelector(".nav-menu").classList.toggle("show");
-});
 
   </main>
         <!-- Footer -->
   <footer class="footer">
     <span> © 2023 KEPI, Inc. Todos los derechos reservados</span>
   </footer>
-
 
 </body>
 </html>

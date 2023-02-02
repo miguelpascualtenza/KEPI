@@ -1,33 +1,13 @@
- /* Inicio Miguel Pascual */
- /* Carousel */
-  const imagenes = document.querySelectorAll('.imagen'); //array con todas las imagenes
-  let imagenActual = 0; //sigue el array de imagenes
+/* Carousel */
+const imagenes = document.querySelectorAll('.imagen'); //array con todas las imagenes
+let imagenActual = 0; //sigue el array de imagenes
 
-  function mostrarImagen() {
-    imagenes.forEach((imagen) => {
-     imagen.style.display = 'none'; //oculta todas las imagenes
-    });
-    imagenes[imagenActual].style.display = 'block'; //muestra solo la que la imagenActual dice
-  }
-
-  mostrarImagen();
-
-  setInterval(() => {
-    imagenActual = (imagenActual + 1) % imagenes.length; //pasa a la siguente imagen cada 2seg
-    mostrarImagen();
-  }, 2000);
-
-
-  /* menu responsibe */
-  document.querySelector(".menu-btn").addEventListener("click", () => {
-  document.querySelector(".nav-menu").classList.toggle("show");
+function mostrarImagen() {
+  imagenes.forEach((imagen) => {
+   imagen.style.display = 'none'; //oculta todas las imagenes
   });
-
-  document.querySelector(".menu-btn").addEventListener("click", () => {
-  document.querySelector(".iconos").classList.toggle("show");
-  });
-   /* Final Miguel Pascual */
-
+  imagenes[imagenActual].style.display = 'block'; //muestra solo la que la imagenActual dice
+}
 
 mostrarImagen();
 
@@ -57,7 +37,6 @@ async function changeLanguage(lang) {
 
   // Canviar els texts (Aquesta és la part que heu de modificar)
 
-
   //Este es de la pagina register
 
   console.log(document);
@@ -79,20 +58,19 @@ async function changeLanguage(lang) {
 
   console.log(document);
   console.log(document.getElementById('inicio_sesion'));
-
   document.getElementById('inicio_sesion').innerHTML = data.inicio_sesion;
 
 
   //Este es de la pagina contacto
 
   console.log(document);
-  console.log(document.getElementById('first_nameContact'));
-  document.getElementById('first_nameContact').placeholder = data.first_nameContact;
+  console.log(document.getElementById('first-nameContact'));
+  document.getElementById('first-nameContact').placeholder = data.first-nameContact;
  
 
   console.log(document);
-  console.log(document.getElementById('last_nameContact'));
-  document.getElementById('last_nameContact').placeholder = data.last_nameContact;
+  console.log(document.getElementById('last-nameContact'));
+  document.getElementById('last-nameContact').placeholder = data.last-nameContact;
 
   console.log(document);
   console.log(document.getElementById('emailContact'));
@@ -221,8 +199,6 @@ async function changeLanguage(lang) {
     console.log(document);
     console.log(document.getElementById('sudaderastoneisla'));
     document.getElementById('sudaderastoneisla').innerHTML = data.sudaderastoneisla;
-
-
 
 
 

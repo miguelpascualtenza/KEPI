@@ -5,18 +5,8 @@
     "Password": "Contrasenya",
     "inicio_sesion": "Inici de Sessió",
 
-    "novedades": "Novetats",
-    "mujer": "Dona"
-
-
-
-
-
-
-
-
-    "first_nameContact": "Nom",
-    "last_nameContact": "Cognoms",
+    "first-nameContact": "Nom",
+    "last-nameContact": "Cognoms",
     "emailContact": "Gmail",
     "telefonoContact": "Telèfon",
     "conceptoContact": "Concepte",

@@ -4,15 +4,10 @@
     "email": "E-mail",
     "Password": "Password",
     "inicio_sesion": "sign in",
+  
 
-
-    "novedades": "News",
-    "mujer": "Women"
-
-    
-
-    "first_nameContact": "Name",
-    "last_nameContact": "Last Name",
+    "first-nameContact": "Name",
+    "last-nameContact": "Last Name",
     "emailContact": "E-mail",
     "telefonoContact": "Phone number",
     "conceptoContact": "Concept",
@@ -47,11 +42,7 @@
     "camisaMonclerm": "Moncler T-Shirt",
     "camisanig": "Y-3 T-Shirt",
     "camisarayas": "Burberry T-Shirt",
-    "sudaderastoneisla": "Stone Island Hoodie",
-    
-
-
-
+    "sudaderastoneisla": "Stone Island Hoodie"
     
 
 
