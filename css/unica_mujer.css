@@ -1,3 +1,6 @@
+/* body{overflow : hidden; overflow-y : scroll; 
+  overflow : -moz-scrollbars-vertica} */
+
   header, main{
     margin: 5%;
   }
@@ -162,8 +165,8 @@
   
   
   
-  /* fila ropa */
-  .ropa {
+   /* fila ropa */
+   .ropa {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
@@ -172,27 +175,53 @@
     text-align: center;
     align-items: center;
     justify-content: center; 
+    display: block;
+    margin: 0 auto;
     
   }
   
   .ropa img {
-    width: 80%;
-    height: auto;
+    width: 100%;
+    height: 500px;
   }
   
+  #logobr{
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    transform: translateY(-50%);
+  }
+
+  .ropa h4{
+    font-size: 15px;
+    margin: 10px 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-10%);
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+  }
+
+  .ropa h5{
+    font-size: 15px;
+    margin: 10px 0;
+    position: absolute;
+    left: 0;
+    top: 160%;
+    transform: translateY(-50%);
+    text-align: justify;
+}
+
   .ropa h3 {
     font-size: 20px;
     margin: 10px 0;
-  }
-  
-  .ropa a {
-    display: inline-block;
-  }
-  
-  
-  .ropa div {
-  
-    position: relative;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-280%);
   }
   
   
